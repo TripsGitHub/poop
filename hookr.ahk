@@ -9,8 +9,3 @@ Run, powershell Invoke-Item .\poop.exe
 SendMessage,0x112,0xF170,2,,Program Manager
 
 DllCall("user32.dll\LockWorkStation")
-
-Loop, 50
-{
-Run, msedge.exe "https://youareanidiot.cc/" --new-window"
-}

